@@ -1,0 +1,80 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+.container {
+  max-width: 600px;
+  justify-content: center;
+}
+article {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 2px 2px gray;
+  margin-bottom: 3rem;
+}
+.article-img {
+  max-width: 600px;
+}
+.article-name {
+  text-align: left;
+}
+.article-price {
+  color: white;
+  background-color: rgb(120, 120, 236);
+  margin: 1rem 0rem;
+  margin-left: 6rem;
+  margin-right: 0rem;
+}
+.article-name-price-div {
+  display: flex;
+  flex-direction: row;
+}
+.article-info {
+  text-align: left;
+  padding: 0rem 1rem;
+  color: rgb(61, 61, 61);
+}
+.loading {
+  text-align: center;
+  color: Blue;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.delete {
+  margin: 1rem 0rem;
+  padding: 0.5rem;
+  max-width: 130px;
+  font-weight: bold;
+  color: red;
+  border: 2px solid red;
+  cursor: pointer;
+}
+.show-more {
+  border: none;
+  background-color: whitesmoke;
+  color: rgb(120, 120, 236);
+  font-size: medium;
+  cursor: pointer;
+}
+.reload {
+  text-align: center;
+  background-color: white;
+  border: 1px solid blue;
+  color: Blue;
+  font-weight: bolder;
+  font-size: 30px;
+  cursor: pointer;
+}
+.App-h2 {
+  text-decoration: underline;
+}
